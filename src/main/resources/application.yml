@@ -1,0 +1,29 @@
+spring:
+  cache:
+    cache-names: js, ttf
+server:
+  port: 2907
+logging:
+  file: log/3rd-party-privacy-proxy.log
+  level:
+    ROOT: INFO
+    de.tk.opensource.privacyproxy: INFO
+    de.tk.opensource.privacyproxy.routing: DEBUG
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
+assets:
+  fileLocation: 'C:\SPU\tmp\3rd-party-privacy-proxy'
+example:
+  scripts:
+    endpoints:
+      - remoteUrl: 'https://code.jquery.com/jquery-3.3.1.js'
+        filename: 'jquery.js'
+    update: true
+    interval: '0 */2 * * * ?'
+  routing:
+    endpoint: 'https://tracking.example.de/dev/piwik.php'
+    environment: dev
