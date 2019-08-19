@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.tk.opensource</groupId>
-    <artifactId>3rd-party-privacy-proxy-examples</artifactId>
+    <artifactId>3rdparty-privacy-proxy-examples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -65,8 +65,8 @@
 
         <dependency>
             <groupId>de.tk.opensource</groupId>
-            <artifactId>3rd-party-privacy-proxy</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <artifactId>3rdparty-privacy-proxy</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>

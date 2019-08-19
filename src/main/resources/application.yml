@@ -4,7 +4,7 @@ spring:
 server:
   port: 2907
 logging:
-  file: log/3rd-party-privacy-proxy.log
+  file: log/3rdparty-privacy-proxy.log
   level:
     ROOT: INFO
     de.tk.opensource.privacyproxy: INFO
@@ -16,7 +16,7 @@ management:
     health:
       enabled: true
 assets:
-  fileLocation: 'C:\SPU\tmp\3rd-party-privacy-proxy'
+  fileLocation: '/tmp/3rdparty-privacy-proxy'
 example:
   scripts:
     endpoints:
