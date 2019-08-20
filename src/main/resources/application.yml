@@ -7,7 +7,7 @@ logging:
   file: log/3rdparty-privacy-proxy.log
   level:
     ROOT: INFO
-    de.tk.opensource.privacyproxy: INFO
+    de.tk.opensource.privacyproxy: DEBUG
     de.tk.opensource.privacyproxy.routing: DEBUG
 management:
   endpoints:
@@ -27,3 +27,19 @@ example:
   routing:
     endpoint: 'https://tracking.example.de/dev/piwik.php'
     environment: dev
+google:
+  fonts:
+    endpoints:
+      - remoteUrl: 'https://fonts.google.com/download?family=Roboto'
+        filename: 'roboto.zip'
+      - remoteUrl: 'https://fonts.google.com/download?family=Open+Sans'
+        filename: 'open-sans.zip'
+    update: true
+    interval: '0 */2 * * * ?'
+---
+spring:
+  profiles: proxy
+http:
+  proxyHost:
+  proxyPort:
+  nonProxyHosts:
