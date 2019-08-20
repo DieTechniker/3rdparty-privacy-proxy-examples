@@ -42,12 +42,12 @@ public class ExampleRoutingHandler extends RoutingHandler {
 	}
 
 	@Override
-	protected String[] getRequiredRequestHeaders() {
+	protected String[] getWhitelistedRequestHeaders() {
 		return new String[] { "User-Agent" };
 	}
 
 	@Override
-	protected String[] getRequiredCookies() {
+	protected String[] getWhitelistedCookieNames() {
 		return new String[] { "_example_pk_" };
 	}
 
