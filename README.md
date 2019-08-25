@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy-examples.svg?branch=master)](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy-examples)
+[![Build Status](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy-examples.svg?branch=master)](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy-examples) [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=DieTechniker_3rdparty-privacy-proxy-examples&metric=alert_status)](https://sonarcloud.io/dashboard?id=DieTechniker_3rdparty-privacy-proxy-examples)
 
 # TK 3rd Party Privacy Proxy (3PPP) Example Implementation
 *Depends on the [3rd Party Privacy Proxy](https://github.com/DieTechniker/3rdparty-privacy-proxy) Base component: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.tk.opensource/3rdparty-privacy-proxy/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/de.tk.opensource/3rdparty-privacy-proxy) [![Build Status](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy.svg?branch=master)](https://travis-ci.org/DieTechniker/3rdparty-privacy-proxy)*
