@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import de.tk.opensource.privacyproxy.config.CookieNameMatchType;
-import de.tk.opensource.privacyproxy.examples.config.UrlPattern;
+import de.tk.opensource.privacyproxy.examples.config.ExampleUrlPattern;
 import de.tk.opensource.privacyproxy.routing.RoutingHandler;
 
 /**
@@ -22,7 +22,7 @@ import de.tk.opensource.privacyproxy.routing.RoutingHandler;
  * RoutingHandlers per provider and endpoint.
  */
 @Controller
-@RequestMapping(value = UrlPattern.Contexts.PROXY)
+@RequestMapping(value = ExampleUrlPattern.Contexts.PROXY)
 public class ExampleRoutingHandler extends RoutingHandler {
 
 	@Value("${example.routing.endpoint}")
@@ -31,7 +31,7 @@ public class ExampleRoutingHandler extends RoutingHandler {
 	@Value("${example.routing.environment}")
 	private String environment;
 
-	@PostMapping(value = UrlPattern.Provider.EXAMPLE)
+	@PostMapping(value = ExampleUrlPattern.Provider.EXAMPLE)
 	@ResponseBody
 	public ResponseEntity handleRequest(
 		@RequestBody
