@@ -66,7 +66,7 @@
         <dependency>
             <groupId>de.tk.opensource</groupId>
             <artifactId>3rdparty-privacy-proxy</artifactId>
-            <version>1.0.9-SNAPSHOT</version>
+            <version>1.0.10-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
