@@ -82,7 +82,7 @@ mvn spring-boot:run
 The configuration relies on **profiles** to determine which configuration block should be used. To start the application with a specific profile ("dev" in this example) use
 
 ```bash
-mvn spring-boot:run -Drun.profiles=dev
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 or
 java -jar -Dspring.profiles.active=dev target/3rdparty-privacy-proxy-examples.jar
 ```
